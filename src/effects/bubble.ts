@@ -8,18 +8,18 @@ const bubbleCommand: Command = {
 	name: "bubble",
 	displayName: "bubble",
 
-	description: "Puts each character in your message into a bubble",
-	displayDescription: "Puts each character in your message into a bubble",
+	description: "Ⓟⓤⓣⓢ ⓖⓘⓥⓔⓝ ⓣⓔⓧⓣⓢ ⓒⓗⓐⓡⓐⓒⓣⓔⓡⓢ ⓘⓝⓣⓞ ⓑⓤⓑⓑⓛⓔⓢ",
+	displayDescription: "Ⓟⓤⓣⓢ ⓖⓘⓥⓔⓝ ⓣⓔⓧⓣⓢ ⓒⓗⓐⓡⓐⓒⓣⓔⓡⓢ ⓘⓝⓣⓞ ⓑⓤⓑⓑⓛⓔⓢ",
 
 	type: ApplicationCommandType.Chat,
 	inputType: ApplicationCommandInputType.BuiltInText,
 
 	options: [{
-		name: "message",
-		displayName: "message",
+		name: "text",
+		displayName: "text",
 
-		description: "Message to make each character bubbled",
-		displayDescription: "Message to make each character bubbled",
+		description: "Text to make each character bubbled",
+		displayDescription: "Text to make each character bubbled",
 
 		type: ApplicationCommandOptionType.String,
 		required: true

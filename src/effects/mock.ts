@@ -33,18 +33,18 @@ const mockCommand: Command = {
 	name: "mock",
 	displayName: "mock",
 
-	description: "eXaMpLe TeXt",
-	displayDescription: "eXaMpLe TeXt",
+	description: "mOcKs ThE gIvEn TeXt",
+	displayDescription: "mOcKs ThE gIvEn TeXt",
 
 	type: ApplicationCommandType.Chat,
 	inputType: ApplicationCommandInputType.BuiltInText,
 
 	options: [{
-		name: "message",
-		displayName: "message",
+		name: "text",
+		displayName: "text",
 
-		description: "message to mock",
-		displayDescription: "message to mock",
+		description: "Text to mock",
+		displayDescription: "Text to mock",
 
 		type: ApplicationCommandOptionType.String,
 		required: true

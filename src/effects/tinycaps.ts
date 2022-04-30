@@ -8,18 +8,18 @@ const tinyCapsCommand: Command = {
 	name: "tinycapitals",
 	displayName: "tinycapitals",
 
-	description: "Turns your message into capitals and shrinks it",
-	displayDescription: "Turns your message into capitals and shrinks it",
+	description: "ᴄᴀᴘɪᴛᴀʟɪᴢᴇꜱ ʏᴏᴜʀ ᴛᴇxᴛ ᴀɴᴅ ꜱʜʀɪɴᴋꜱ ɪᴛ",
+	displayDescription: "ᴄᴀᴘɪᴛᴀʟɪᴢᴇꜱ ʏᴏᴜʀ ᴛᴇxᴛ ᴀɴᴅ ꜱʜʀɪɴᴋꜱ ɪᴛ",
 
 	type: ApplicationCommandType.Chat,
 	inputType: ApplicationCommandInputType.BuiltInText,
 
 	options: [{
-		name: "message",
-		displayName: "message",
+		name: "text",
+		displayName: "text",
 
-		description: "Message to turn into tiny capitals",
-		displayDescription: "Message to turn into tiny capitals",
+		description: "Text to turn into tiny capitals",
+		displayDescription: "Text to turn into tiny capitals",
 
 		type: ApplicationCommandOptionType.String,
 		required: true

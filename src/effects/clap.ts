@@ -7,18 +7,18 @@ const clapCommand: Command = {
 	name: "clap",
 	displayName: "clap",
 
-	description: "Example 👏 text",
-	displayDescription: "Example 👏 text",
+	description: "Claps 👏 the 👏 given 👏 text",
+	displayDescription: "Claps 👏 the 👏 given 👏 text",
 
 	type: ApplicationCommandType.Chat,
 	inputType: ApplicationCommandInputType.BuiltInText,
 
 	options: [{
-		name: "message",
-		displayName: "message",
+		name: "text",
+		displayName: "text",
 
-		description: "message to clap",
-		displayDescription: "message to clap",
+		description: "Text to clap",
+		displayDescription: "Text to clap",
 
 		type: ApplicationCommandOptionType.String,
 		required: true

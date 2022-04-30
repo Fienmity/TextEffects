@@ -8,18 +8,18 @@ const mirrorCommand: Command = {
 	name: "mirror",
 	displayName: "mirror",
 
-	description: "Mirrors your message",
-	displayDescription: "Mirrors your message",
+	description: "ƚxɘƚ ᴎɘviǫ ɘʜƚ ꙅɿoɿɿiM",
+	displayDescription: "ƚxɘƚ ᴎɘviǫ ɘʜƚ ꙅɿoɿɿiM",
 
 	type: ApplicationCommandType.Chat,
 	inputType: ApplicationCommandInputType.BuiltInText,
 
 	options: [{
-		name: "message",
-		displayName: "message",
+		name: "text",
+		displayName: "text",
 
-		description: "Message to mirror",
-		displayDescription: "Message to mirror",
+		description: "Text to mirror",
+		displayDescription: "Text to mirror",
 
 		type: ApplicationCommandOptionType.String,
 		required: true

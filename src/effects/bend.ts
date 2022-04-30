@@ -8,18 +8,18 @@ const bendCommand: Command = {
 	name: "bend",
 	displayName: "bend",
 
-	description: "Bends the characters in your message",
-	displayDescription: "Bends the characters in your message",
+	description: "ҍҽղժʂ էհҽ çհąɾąçէҽɾ ìղ էհҽ ցìѵҽղ էҽ×է",
+	displayDescription: "ҍҽղժʂ էհҽ çհąɾąçէҽɾ ìղ էհҽ ցìѵҽղ էҽ×է",
 
 	type: ApplicationCommandType.Chat,
 	inputType: ApplicationCommandInputType.BuiltInText,
 
 	options: [{
-		name: "message",
-		displayName: "message",
+		name: "text",
+		displayName: "text",
 
-		description: "Message to bend",
-		displayDescription: "Message to bend",
+		description: "Text to bend",
+		displayDescription: "Text to bend",
 
 		type: ApplicationCommandOptionType.String,
 		required: true

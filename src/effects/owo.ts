@@ -9,8 +9,8 @@ const owoifyCommand: Command = {
 	name: "owoify",
 	displayName: "owoify",
 
-	description: "hewwowo ^w^ i am ywouw wowowst nyightmawe",
-	displayDescription: "hewwowo ^w^ i am ywouw wowowst nyightmawe",
+	description: "owowoifwies teh giwen text",
+	displayDescription: "owowoifwies teh giwen text",
 
 	type: ApplicationCommandType.Chat,
 	inputType: ApplicationCommandInputType.BuiltInText,

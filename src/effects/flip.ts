@@ -8,18 +8,18 @@ const flipCommand: Command = {
 	name: "flip",
 	displayName: "flip",
 
-	description: "Flips and mirrors your message",
-	displayDescription: "Flips and mirrors your message",
+	description: "ʇxǝʇ uǝʌıɓ ǝɥʇ sɹoɹɹıɯ puɐ sdılℲ",
+	displayDescription: "ʇxǝʇ uǝʌıɓ ǝɥʇ sɹoɹɹıɯ puɐ sdılℲ",
 
 	type: ApplicationCommandType.Chat,
 	inputType: ApplicationCommandInputType.BuiltInText,
 
 	options: [{
-		name: "message",
-		displayName: "message",
+		name: "text",
+		displayName: "text",
 
-		description: "Message to flip",
-		displayDescription: "Message to flip",
+		description: "Text to flip",
+		displayDescription: "Text to flip",
 
 		type: ApplicationCommandOptionType.String,
 		required: true
