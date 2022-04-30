@@ -11,9 +11,12 @@
 
    bend<br />
    bubble<br />
+   clap<br />
    flip<br />
    mirror<br />
    mock<br />
+   owo (Thanks [beerpiss](https://github.com/beerpiss)!)<br />
    tiny capitals<br />
    zalgo<br />
+   emojipasta (Thanks [beerpiss](https://github.com/beerpiss)!) (Emoji mappings provided by [Kevin Galligan](https://github.com/Kevinpgalligan))<br />
 </div>
