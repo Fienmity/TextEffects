@@ -6,7 +6,7 @@ import { mirrorCommand } from "./mirror";
 import { bubbleCommand } from "./bubble";
 import { bendCommand } from "./bend";
 import { clapCommand } from "./clap";
-import { emojipastaCommand } from "../emojipasta";
+import { emojipastaCommand } from "./emojipasta";
 import { owoifyCommand } from "./owo";
 
 const effects = [mockCommand,
