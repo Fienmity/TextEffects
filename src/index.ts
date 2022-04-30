@@ -1,16 +1,18 @@
 import { Plugin, registerPlugin } from "enmity-api/plugins";
 import { effects } from "./effects";
 
+
 const TextEffects: Plugin = {
   name: "TextEffects",
+  // @ts-ignore
   author: 'Fiery',
   version: '1.0.0',
   description: "Bunch of text modifiers for your messages, all in one plugin.",
   authors: [
-     {
-        name: 'Fiery',
-        id: '890228870559698955'
-     }
+    {
+      name: 'Fiery',
+      id: '890228870559698955'
+    }
   ],
   commands: [],
 
