@@ -6,7 +6,16 @@ import { mirrorCommand } from "./mirror";
 import { bubbleCommand } from "./bubble";
 import { bendCommand } from "./bend";
 import { clapCommand } from "./clap";
+import { emojipastaCommand } from "../emojipasta";
 
-const effects = [mockCommand, zalgoCommand, tinyCapsCommand, flipCommand, mirrorCommand, bubbleCommand, bendCommand, clapCommand]
+const effects = [mockCommand,
+	zalgoCommand,
+	tinyCapsCommand,
+	flipCommand,
+	mirrorCommand,
+	bubbleCommand,
+	bendCommand,
+	clapCommand,
+	emojipastaCommand]
 
 export { effects };
