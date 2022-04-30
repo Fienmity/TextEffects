@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "enmity-api": "github:enmity-mod/enmity-api",
-    "lunicode": "^2.0.1"
+    "lunicode": "^2.0.1",
+    "owoify-js": "^1.0.7"
   }
 }
