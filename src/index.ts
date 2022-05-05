@@ -8,6 +8,7 @@ const TextEffects: Plugin = {
   author: 'Fiery',
   version: '1.1.0',
   description: "Bunch of text modifiers for your messages, all in one plugin.",
+  color: "#EB459E",
   authors: [
     {
       name: 'Fiery',
