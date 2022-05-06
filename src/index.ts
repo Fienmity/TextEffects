@@ -5,7 +5,6 @@ import { effects } from "./effects";
 const TextEffects: Plugin = {
   name: "TextEffects",
   // @ts-ignore
-  author: 'Fiery',
   version: '1.1.0',
   description: "Bunch of text modifiers for your messages, all in one plugin.",
   color: "#EB459E",
