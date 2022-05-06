@@ -1,0 +1,12 @@
+{
+	"name": "TextEffects",
+	"description": "Bunch of text modifiers for your messages, all in one plugin.",
+	"authors": [
+		{
+			"name": "Fiery",
+			"id": "890228870559698955"
+		}
+	],
+	"version": "1.1.0",
+	"color": "#EB459E"
+}

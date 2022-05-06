@@ -1,19 +1,14 @@
 import { Plugin, registerPlugin } from "enmity-api/plugins";
 import { effects } from "./effects";
-
+import Manifest from "./manifest.json";
 
 const TextEffects: Plugin = {
-  name: "TextEffects",
+  name: Manifest.name,
   // @ts-ignore
-  version: '1.1.0',
-  description: "Bunch of text modifiers for your messages, all in one plugin.",
-  color: "#EB459E",
-  authors: [
-    {
-      name: 'Fiery',
-      id: '890228870559698955'
-    }
-  ],
+  description: Manifest.description,
+  authors: Manifest.authors,
+  version: Manifest.version,
+  color: Manifest.color,
   commands: [],
 
   onStart() {

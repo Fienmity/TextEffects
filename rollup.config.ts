@@ -2,11 +2,13 @@ import { defineConfig, Plugin } from "rollup";
 import esbuild from "rollup-plugin-esbuild";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
+import json from "@rollup/plugin-json";
 
-import { basename } from "path";
 import { writeFileSync } from "fs";
 
-const pluginName = basename(process.cwd());
+import Manifest from "./src/manifest.json";
+
+const pluginName = Manifest.name;
 
 export default defineConfig({
   input: "src/index.ts",
@@ -20,24 +22,17 @@ export default defineConfig({
   plugins: [
     nodeResolve(),
     commonjs(),
+    json(),
     esbuild({ minify: true, target: "ES2019" }),
-    createPluginJson(),
+    copyManifest(),
   ]
 });
 
-function createPluginJson(options = {}): Plugin {
+function copyManifest(options = {}): Plugin {
   return {
-    name: 'plugin-info',
+    name: 'plugin-manifest',
     writeBundle: (err) => {
-      const info = require('./package.json');
-      const data = {
-        "name": pluginName,
-        "description": info?.description ?? "No description was provided.",
-        "author": info?.author?.name ?? "Unknown",
-        "version": info?.version ?? "1.0.0"
-      };
-
-      writeFileSync(`dist/${pluginName}.json`, JSON.stringify(data, null, "\t"));
+      writeFileSync(`dist/${pluginName}.json`, JSON.stringify(Manifest, null, "\t"));
     }
   }
 };
